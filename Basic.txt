@@ -1,0 +1,35 @@
+Objective Fuction:
+Measures how close a prediction is to the actual result.
+ML revolves around optimizing this function.
+
+Gradient Descent: (An Optimization Algorithm)
+
+Gradient is a generalization of the derivative concept.
+Learning rate should be high enough so we dont iterate forever, but low enough so we dont 
+oscillate forever.
+We should Stop updating once we have converged.
+We know that it is converged when:
+X(i+1) - X(i) = 0.001
+
+A high learning rate is faster, but may not reach the minimum.
+
+Loss Function -> L(y,t)
+Cost Function -> C(y,t)
+Error Function -> E(y,t)
+
+Any Function That holds the basic property higher for worse results and lower for better results
+can be a loss function. Division by constant changes nothing.
+
+
+Tensorflow Activate:
+
+>> conda create --name py3-TF2.0 python=3
+>> conda activate py3-TF2.0
+>> conda install tensorflow
+>> pip install --upgrade tensorflow
+
+We must make sure we see the kernel in Jupyter:
+
+>> pip install ipykernel
+
+
